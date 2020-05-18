@@ -1,0 +1,22 @@
+showError(input,message)  //获取父级的节点，
+给父级节点添加相应的class，并把错误消息展示给small兄弟节点
+
+showSuccess(input) //给父节点添加成功后的class
+
+
+checkEmail(input) //检查邮箱的信息是否合法
+const re = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+合法的话展示成功的消息，否则展示“邮箱格式错误”
+
+checkRequired(inputArr) //检查数组内的所有节点是否都已填
+
+checkLength(input,min,max) //用于检查输入长度showError（getKeyWords(input)至少需要min个字符少于max个字符）
+
+checkLength(username, 3, 15);
+checkLength(password, 6, 12);
+
+
+
+checkPasswordsMatch(input1,input2)//检查两个密码是否匹配，不匹配时给确认密码框展示“密码不匹配的信息”
+
+
